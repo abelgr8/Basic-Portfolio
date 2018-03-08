@@ -12,6 +12,19 @@ header {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 20px;
     font-weight: bold;
+    width: 100%;
+    clear: both;
+}
+
+nav {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: inline;
 }
 
 h1 {
@@ -23,10 +36,16 @@ h1 {
     width: 12%;
 }
 
+.container1 {
+    width: 960px;
+    margin: auto;
+}
+
 h2 {
     padding-bottom: 20px;
     font-weight: bold;
     border-bottom: 2px solid #cccccc;
+    color: #4aaaa5; 
 }
 
 body {
@@ -38,6 +57,11 @@ body {
     color: #333;
     background: #efeee7;
     background-image: url("../assets/images/dust_scratches.png/");
+}
+
+.container {
+    width: 960px;
+    margin: auto;
 }
 
 #bio-image {
@@ -56,7 +80,16 @@ section {
     padding: 20px;
     margin: 40px 100px 40px 100px;
     background: rgb(255, 255, 255);
-    height: 960px;
+    
 }
 
-  
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    background: #666666;
+    border-top: 2px solid #4aaaa5;
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 10px;
+    text-align: center;
+}
