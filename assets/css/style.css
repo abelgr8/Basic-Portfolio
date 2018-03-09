@@ -4,33 +4,74 @@
 }
 
 body {
-    /* padding: 0; */
-    /* margin: 0; */
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 18px;
     line-height: 30px;
     color: #333;
     background: #efeee7;
-    /* background-image: url("../assets/images/dust_scratches.png/"); */
 }
 
-#topheader {
+h1, h2, h3, p {
+    margin-bottom: 20px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+h1, h2, h3, {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #666666;
+    padding-bottom: 20px;
+}
+
+h2, h3 {
+    font-size: 22px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+}
+
+/* header */
+#masthead {
     margin: 0 0 20px;
     background: #ffffff;
     border-bottom: 1px solid #cccccc;
-    background-color: #ffffff;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 20px;
-    /* font-weight: bold; */
+    color: #ffffff;
     width: 100%;
     z-index: 99;
-    /* position: fixed; */
+    position: fixed;
     overflow: auto;
+}
+
+#logo {
+    background: #4aaaa5;
+    float: left;
+    font-weight: bold;
+    line-height: 90px;
+    color: #ffffff;
+    width: 250px;
+    height: 90px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    text-decoration: none;
 }
 
 nav {
     float: right;
-    list-style-type: none;
+    /* list-style-type: none; */
     margin-top: 25px;
 }
 
@@ -40,71 +81,78 @@ nav a {
     border-left: 1px solid #666666;
     padding-left: 15px;
     line-height: 18px;
+    text-decoration: none;
 }
 
 nav a:first-child {
     border-left: 0 none;
 }
 
-h1 {
-    background: #4aaaa5;
-    float: left;
-    font-weight: bold;
-    line-height: 90px;
-    color: #ffffff;
-    width: 250px;
-    height: 90px;
-    text-align: center;
-    
+/* Main */
+
+#maincontainer {
+    padding-top: 130px;
 }
 
-.container1 {
+.mainsection {
+    background: #ffffff;
+    padding: 30px;
+    margin: 0 0 40px 0;
+    width: 100%;
+    max-width: 650px;
+    float: left;
+    border: 1px solid #dddddd;
+}
+
+/* .container1 {
     max-width: 960px;
     width: 100%;
     margin: auto;
     clear: both;
+} */
+
+.auth-image {
+    width: 200 px;
+    height: auto;
+    float: left;
+    margin-right: 25px;
 }
 
-h2 {
+/* sidebar */
+.sidebar {
+    background: #ffffff;
+    padding: 30px;
+    width: 100%;
+    max-width: 270px;
+    float: right;
+    border: 1px solid #dddddd;
+    margin-bottom: 20px;
+}
+
+h3, .sidebar, h2 {
+    border-bottom: 2px solid #666666;
     padding-bottom: 20px;
-    font-weight: bold;
-    border-bottom: 2px solid #cccccc;
-    color: #4aaaa5; 
+    margin-top: 15px;
+    line-height: 22px;
 }
 
-.container {
-    max-width: 960px;
-    width: 100%;
-    margin: auto;
-    clear: both;
+.social {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
 }
 
-#bio-image {
-    float: left;
-    padding-right: 10px;
-    margin: 10px;
-}
-
-p {
-    padding: 5px;
-    width: 100%;
-    
-}
-
-section {
-    padding: 20px;
-    margin: 40px 100px 40px 100px;
-    background: rgb(255, 255, 255);
-    
+.social:last-child {
+   margin-right: 0; 
 }
 
 footer {
-    padding: 20px;
+    padding: 30px 0;
     margin-top: 20px;
     background: #666666;
-    border-top: 2px solid #4aaaa5;
-    background-color: #ffffff;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-top: 8px solid #4aaaa5;
+    color: #ffffff;
     font-size: 10px;
     text-align: center;
 }
