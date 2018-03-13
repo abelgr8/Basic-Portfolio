@@ -215,3 +215,62 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #333;
+  }
+
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-container {
+    width: 100%;
+  }
+
+  #totho {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  body {
+    background-color: #333;
+  }
+
+  .masthead {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #ahoe,
+  #chevy {
+    width: 100%;
+  }
+
+  #lemon {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    background-color: #333;
+  }
+
+  .masthead {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #ahoe,
+  #chevy {
+    width: 100%;
+  }
+
+  #lemon {
+    margin-top: 40px;
+  }
+}
